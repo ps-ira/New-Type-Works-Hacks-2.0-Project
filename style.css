@@ -56,10 +56,21 @@ section {
 }
 
 #about {
-    padding-top: 8em;
+    padding-top: 7em;
     font-size: 1.5em;
     padding-left: 5em;
     padding-right: 5em;
+    padding-bottom: 5em;
+}
+
+img#ll {
+    float: left;
+    height: 10em;
+}
+
+img#lll {
+    float: right;
+    height: 10em;
 }
 
 h2 {
@@ -72,7 +83,7 @@ h2 {
 
 #gallery {
     font-size: 1.5em;
-    padding-top: 10em;
+    padding-top: 5em;
     padding-left: 5em;
     padding-right: 5em;
 }
@@ -84,9 +95,14 @@ img {
 
 #info {
     font-size: 1.5em;
-        padding-top: 10em;
+        padding-top: 5em;
         padding-left: 5em;
         padding-right: 5em;
+}
+
+img#e {
+    float: right;
+    height: 10em;
 }
 
 h3 {
@@ -99,10 +115,10 @@ h3 {
 
 #join {
     font-size: 1.5em;
-        padding-top: 10em;
+        padding-top: 5em;
         padding-left: 5em;
         padding-right: 5em;
-        padding-bottom: 5em;
+        padding-bottom: 7em;
 }
 
 h5 {
@@ -163,11 +179,12 @@ input[type="submit"]:hover {
 footer {
     font-size: 1 em;
         padding-top: 1.5em;
+        padding-bottom: 1.5em;
         align-items: center;
-        background-color: rgb(255, 196, 0);
+        background: linear-gradient(rgb(240, 240, 58),rgb(253, 199, 99));
         text-align: center;
         font-size: 1.2em;
-        color: white;
+        color: black;
         font-family:Verdana, Geneva, Tahoma, sans-serif;
 } 
 
