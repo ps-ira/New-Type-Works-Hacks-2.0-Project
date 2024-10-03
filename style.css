@@ -1,0 +1,173 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: radial-gradient(circle, rgb(253, 192, 79), rgb(243, 243, 112), rgb(153, 255, 153), rgb(193, 193, 255), rgb(199, 145, 238), rgb(247, 187, 195));
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+background: linear-gradient(to right, rgb(243, 106, 106), rgb(253, 192, 79), rgb(243, 243, 112), rgb(153, 255, 153), rgb(193, 193, 255), rgb(199, 145, 238), rgb(247, 187, 247));
+    color:black;
+    padding: 20px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+header h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+nav {
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: rgb(56, 70, 70);
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    background: #bfd9f7;
+    border-radius: 5px;
+    
+}
+
+section {
+    margin:  0;
+}
+
+#about {
+    padding-top: 8em;
+    font-size: 1.5em;
+    padding-left: 5em;
+    padding-right: 5em;
+}
+
+h2 {
+    font-size: 2em;
+    color: #f76464;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-bottom: 2em;
+    text-align: center;
+}
+
+#gallery {
+    font-size: 1.5em;
+    padding-top: 10em;
+    padding-left: 5em;
+    padding-right: 5em;
+}
+
+img {
+    height: 20em;
+    padding: 1em;
+}
+
+#info {
+    font-size: 1.5em;
+        padding-top: 10em;
+        padding-left: 5em;
+        padding-right: 5em;
+}
+
+h3 {
+    padding-bottom: 1em;
+    padding-top: 1em;
+    font-size: 1.1em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(221, 123, 31);
+}
+
+#join {
+    font-size: 1.5em;
+        padding-top: 10em;
+        padding-left: 5em;
+        padding-right: 5em;
+        padding-bottom: 5em;
+}
+
+h5 {
+    font-size: 1.1em;
+    padding-bottom: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: rgb(39, 48, 21);
+}
+
+fieldset {
+    background-color: white;
+    border: 2px solid yellow;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+legend {
+    font-size: 1.5em;
+    color: red;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #388cad;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(211, 38, 38);
+}
+
+#message {
+    color: red;
+    font-weight: bold;
+    margin-top: 10px;
+}
+footer {
+    font-size: 1 em;
+        padding-top: 1.5em;
+        align-items: center;
+        background-color: rgb(255, 196, 0);
+        text-align: center;
+        font-size: 1.2em;
+        color: white;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+} 
+
