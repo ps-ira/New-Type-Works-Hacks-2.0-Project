@@ -23,6 +23,8 @@ background: linear-gradient(to right, rgb(243, 106, 106), rgb(253, 192, 79), rgb
 header h1 {
     text-align: center;
     margin-bottom: 10px;
+    text-shadow: 1px 1px 1px white;
+    font-size: 3em;
 }
 
 nav {
@@ -46,7 +48,8 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background: #bfd9f7;
+    background: #ee88d8;
+    color: white;
     border-radius: 5px;
     
 }
@@ -79,6 +82,7 @@ h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding-bottom: 2em;
     text-align: center;
+    text-shadow: 1px 1px 1px snow;
 }
 
 #gallery {
